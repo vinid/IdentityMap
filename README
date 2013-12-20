@@ -1,6 +1,9 @@
-Prima di compilare i file è necessario importare la libreria sqlite (versione utilizzata per questo progetto: sqlite-jdbc-3.7.15-M1).
-I sorgenti si trovano nella cartella src/ mentre una versione già compilata del programma può essere trovata dentro bin/
+Add sqlite library in the lib/ folder, version used at the moment "sqlite-jdbc-3.7.15-M1".
+You can find the source code in the src/ folder.
+In the bin/ folder you can find the person.db file that is a little database (made with sqlite) that contains three records. 
 
-person.db, che si trova nella cartella bin/ è un database con 3 record inseriti.
+Compilation command:
+  javac -cp "../lib/*" *.java -d "../bin/"
 
-
+Run with:
+  java -classpath "../lib/*:." Main
