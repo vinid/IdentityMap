@@ -1,0 +1,6 @@
+Prima di compilare i file è necessario importare la libreria sqlite (versione utilizzata per questo progetto: sqlite-jdbc-3.7.15-M1).
+I sorgenti si trovano nella cartella src/ mentre una versione già compilata del programma può essere trovata dentro bin/
+
+person.db, che si trova nella cartella bin/ è un database con 3 record inseriti.
+
+
